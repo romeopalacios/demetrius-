@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - "demetrius-site/dist/**"
+      - "assets/**"
+      - "index.html"
+      - "script.js"
+      - "styles.css"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
 
